@@ -1,5 +1,5 @@
 # MissManga BookFace
-## Fullstack projekt > 
+## MERN_Fullstack projekt > 
 ### Generate a backend with connection with MONGO_DB and from there develop the content in a version of BookFace in REACT ( Frontend).
 
 
