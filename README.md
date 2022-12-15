@@ -21,6 +21,8 @@
 Dokumentation > GruppArbeteDoku.md
 Dokumentation > UrsulaDoc.md
 
+###To run project > npm start / server and client
+
 
 
 
