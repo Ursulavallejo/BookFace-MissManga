@@ -1,0 +1,73 @@
+.online-users-container {
+    position: fixed;
+    left: 7%;
+    top: 60%;
+    letter-spacing: 1px;
+}
+
+.online-username-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    color: lavender;
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.green-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1.5px solid lavenderblush;
+    background-color: rgb(10, 196, 23); 
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 1262px) {
+    .online-users-container {
+        position: fixed;
+        left: 4%;
+        top: 18%;
+        letter-spacing: 1px;
+    }
+
+    .online-username-div {
+        font-size: 18px;
+    }
+
+    .online-username {
+        font-size: 18px;
+    }
+
+    .online-user-heading {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    .online-user-heading {
+        font-size: 18px;
+    }
+
+    .online-username {
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 1096px) {
+    .online-users-container {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1262px) {
+    .online-user-heading {
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+}

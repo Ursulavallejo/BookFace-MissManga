@@ -1,0 +1,257 @@
+.login-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sailor-pic {
+    width: 550px;
+    margin-left: 180px;
+}
+
+.login-square {
+    margin-top: 0px;
+    border: 2px solid var(--text-color);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    border-radius: 5px;
+    font-family: 'Adomina';
+    margin-right: 380px;
+  }
+
+  .signin-heading {
+      color: var(--primary-color);
+      letter-spacing: 2px;
+      font-family: 'Adomina';
+      font-size: 30px;
+  }
+
+
+  .login-input-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+  }
+
+
+
+  .username-login-input, .password-user-input {
+    outline: none;
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 255px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 7px 5px;
+    color: rgb(85, 85, 85);
+    font-family: 'Adomina'; 
+  }
+
+  .password-user-input {
+    width: 266px;
+  }
+
+  .login-btn {
+      background-color: purple;
+      color: white;
+      padding: 6px 10px;
+      border: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 120px;
+      font-family: 'Adomina';
+  }
+
+  .login-btn {
+      margin-right: 18px;   
+  }
+
+  .login-btn:hover {
+      opacity: 0.8;
+  }
+
+  .login-btn:active {
+      transform: translateY(2px);
+  }
+
+  .button-area {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .register-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
+      margin-right: 40px;
+   
+  }
+
+  .not-a-member {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+
+.register {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0;
+}
+
+.register:hover {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 1565px) {
+
+    .login-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .sailor-pic {
+        width: 400px;
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    .login-square {
+        margin-top: 0px;
+        border: 2px solid var(--text-color);
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+        border-radius: 5px;
+        font-family: 'Adomina';
+        margin-right: 0px;
+        margin-left: 50px;
+      }
+}
+
+@media screen and (max-width: 1359px) {
+    .login-div {
+        justify-content: center;
+      
+    }
+    .sailor-pic {
+      
+        margin-right: 50px;
+       
+    }
+
+
+    .login-btn {
+        background-color: purple;
+        color: white;
+        padding: 6px 10px;
+        border: none;
+        font-size: 20px;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100px;
+        font-family: 'Adomina';
+    }
+
+    .login-square {
+        margin-top: 0px;
+        border: 2px solid var(--text-color);
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+        border-radius: 5px;
+        font-family: 'Adomina';
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+
+
+}
+
+@media screen and (max-width: 424px) {
+    .sailor-pic {
+        width: 0.1px;
+        margin: 0px;
+        visibility: hidden;
+    }
+
+    .login-square {
+        margin-top: 0px;
+        border: 2px solid var(--text-color);
+        width: 350px;
+        height: 300px;
+        padding-top: 20px;
+        border-radius: 5px;
+        font-family: 'Adomina';
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+
+      .login-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .username-login-input, .password-user-input {
+        outline: none;
+        border: 1px solid purple;
+        border-radius: 5px;
+        width: 230px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 7px 5px;
+        color: rgb(85, 85, 85);
+        font-family: 'Adomina'; 
+      }
+
+      .password-user-input {
+          width: 243px;
+      }
+
+      .login-btn {
+        background-color: purple;
+        color: white;
+        padding: 6px 10px;
+        border: none;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 80px;
+        font-family: 'Adomina';
+    }
+}
+
+

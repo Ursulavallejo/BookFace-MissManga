@@ -1,0 +1,64 @@
+.menu {
+    width: 200px;
+    height: 15vh;
+    border-radius: 8px;
+    position: absolute;
+    top: 43%;
+    right: 0;
+    background-color: teal;
+    color: lavender;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.7);
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 8;
+}
+
+.menu-delete {
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    width: 93%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px; 
+    transition: 0.1s ease-in-out; 
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+
+.menu-delete:hover, .menu-edit:hover {
+    background-color: lavender;
+    color: var(--primary-color);
+}
+
+.menu-edit {
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    width: 93%;
+    margin-top: 3px;
+    height: 40px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+
+.edit-icon {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.trash-icon {
+    font-size: 21px;
+    margin-right: 20px;
+}

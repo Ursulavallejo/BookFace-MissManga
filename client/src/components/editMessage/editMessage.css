@@ -1,0 +1,134 @@
+.edit-window {
+    width: 640px;
+    height: 40vh;
+    position: fixed;
+    border-radius: 5px;
+    top: 30%;
+    right: 29.6%;
+    background: linear-gradient(to right, var(--background), rgb(92, 217, 217));
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.7);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.edit-text {
+    color: lavenderblush;
+    font-size: 22px;
+}
+
+.edit-message-input {
+    width: 510px;
+    height: 120px;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 20px;
+    background-color: lavender;
+}
+
+.done-btn {
+    background-color: purple;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 30px;
+}
+
+.done-btn:hover {
+    opacity: 0.8;
+}
+
+.done-btn:active {
+    transform: translateY(2px);
+}
+
+@media (max-width: 811px) {
+    .edit-window {
+        width: 540px;
+        height: 23vh;
+        top: 30%;
+        right: 50%;
+        margin-right: -270px;
+    }
+
+    .done-btn {
+        font-size: 18px;
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .edit-message-input {
+        width: 450px;
+        height: 110px;
+        font-size: 18px;
+    }
+
+    .edit-text {
+ 
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .edit-window {
+        width: 400px;
+        height: 230px;
+        top: 30%;
+        right: 50%;
+        margin-right: -200px;
+    }
+
+    .edit-message-input {
+        width: 320px;
+        height: 100px;
+        font-size: 18px;
+    }
+
+    .done-btn {
+        font-size: 15px;
+        width: 90px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .edit-window {
+        width: 300px;
+        height: 230px;
+        top: 30%;
+        right: 50%;
+        margin-right: -150px;
+    }
+
+    .edit-message-input {
+        width: 240px;
+        height: 90px;
+        font-size: 18px;
+    }
+
+    .done-btn {
+        font-size: 15px;
+        width: 80px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+
+

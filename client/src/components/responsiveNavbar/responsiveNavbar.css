@@ -1,0 +1,87 @@
+.menu-icon {
+    position: fixed;
+    font-size: 1px; 
+    -webkit-filter: invert(100%);
+    visibility: hidden;
+}
+
+.responsive-menu {
+    visibility: hidden;
+}
+
+@media (max-width: 811px) {
+
+    .menu-icon {
+        visibility: visible;
+        font-size: 40px;
+        top: 2%;
+        right: 4%;
+        cursor: pointer; 
+        filter: brightness(0) invert(1);
+        z-index: 3;
+    }
+
+    .responsive-menu {
+        padding-top: 100px; 
+        visibility: visible;
+        background-color: black;
+        opacity: 0.9;
+        position: fixed;
+        top: -220%;
+        right: 0;
+        width: 100%;
+        height: 400px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        transition: 0.5s ease-in-out;
+        
+    }
+
+    .responsive-ul {
+        position: absolute;
+        top: 12%;
+        opacity: 1;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25px;
+    }
+
+    .show {
+        top: -1.5%;
+    }
+
+    .responsive-list-item {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 40px;
+        opacity: 1 !important;
+        text-decoration: none;
+        font-family: "PTSansNarrow-Regular";
+        letter-spacing: 3px;    
+        position: relative;
+    }
+
+    .responsive-list-item::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0%;
+        height: 1px;
+        background: white;
+        transition: 0.2s ease-in-out;
+    }
+
+    .responsive-list-item:hover::after {
+        left: 0%;
+        width: 100%;
+    }
+
+}
+

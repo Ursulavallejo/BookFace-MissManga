@@ -1,0 +1,46 @@
+.popup {
+    width: 520px;
+    height: 250px;
+    border: 2px solid var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 15px;
+}
+
+.popup-heading {
+    color: var(--text-color);
+    margin-bottom: 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Adomina';
+}
+
+.congrats-text {
+    color: var(--text-color);
+    margin-top: 30px;
+}
+
+.ok-btn {
+    background-color: purple;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 30px;
+}
+
+.ok-btn:hover {
+    opacity: 0.8;
+}
+
+.ok-btn:active {
+    transform: translateY(2px);
+}
+

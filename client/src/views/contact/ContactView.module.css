@@ -1,0 +1,139 @@
+.heroContact {
+    width: 100%;
+    height: 72vh;
+    background-image : url(../../img/contactSailor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    max-width: 860px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 50%;
+}
+
+.left img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.right {
+    padding: 40px 80px 0px 30px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.contactFormat {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    word-spacing: 0.2px;
+    line-height: 1.6em;
+    padding-bottom: 50px;
+}
+
+.field {
+    width: 290px;
+    padding: 0.5rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    outline: none;
+    background-color: white;
+    margin-bottom: 22px;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    z-index: 99;
+
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.btnContact {
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s;
+    width: 290px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    z-index:99;
+}
+
+.btnContact :hover {
+    background-color:rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 1024px) {
+    .heroAbout {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .heroAbout {
+        width: 50%;
+
+    }
+    .contactForm {
+        max-width: 860px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 50px;
+
+    }
+
+    .left{
+        width: 0.2px;
+        margin: 0px;
+        visibility: hidden;
+    }
+    .right{
+        padding: 40px 30px 0px 30px;
+    }
+}

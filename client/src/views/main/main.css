@@ -1,0 +1,235 @@
+.input-div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.7);
+}
+
+.input-text {
+    width: 520px;
+    height: 80px;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 6px;
+    padding-top: 3px;
+    font-family: 'Adamina';
+}
+
+.post-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 70px;
+    font-family: 'Adamina';
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.post-btn:hover {
+    opacity: 0.8;
+}
+
+.post-btn:active {
+    transform: translateY(2px);
+}
+
+.sailors {
+    width: 300px;
+    position: fixed;
+    top: 20%;
+    right: 2%;
+}
+
+.edit-section {
+    position: fixed;
+    left: 6%;
+    top: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;  
+}
+
+.edit-user-username {
+   margin-bottom: 30px;
+   letter-spacing: 2px;
+}
+
+.edit-profile-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 215px;
+}
+
+.logout-btn {
+    background-color: #63b5b7;
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-family: 'Adamina';
+    font-size: 20px;
+    padding: 6px 7px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.7);
+}
+
+.edit-user-btn {
+    background-color: #63b5b7;
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-family: 'Adamina';
+    font-size: 20px;
+    padding: 6px 7px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.7);
+}
+
+.header-name {
+    color: white;
+   position: absolute;
+   top: -20%;
+   letter-spacing: 2px;
+}
+
+.logout-btn:hover {
+    opacity: 0.8;
+}
+
+.logout-btn:active {
+    transform: translateY(2px);
+}
+
+@media screen and (max-width: 1262px) {
+     .edit-user-username {
+         visibility: hidden;
+     }
+
+     .edit-section {
+         height: 0px;
+         /*top: 8%;*/
+         top: 200px;
+         box-shadow: none;
+     }
+     .header-name{
+         padding-bottom: 20px;
+     }
+    .edit-profile-buttons {
+        margin-top: 50px;
+    }
+
+     .sailors {
+         width: 290px;
+         top: 15%;
+         right: 0;
+     }
+
+}
+
+
+@media (max-width: 1096px) {
+    .sailors {
+        width: 200px;
+        top: 22%;
+        right: 1%;  
+    }  
+
+}
+
+@media (max-width: 1096px) {
+    .sailors {
+        visibility: hidden;
+    }  
+}
+
+@media (max-width: 1096px) {
+    .input-div {
+        width: 500px;
+        margin-top: 170px;
+    }
+
+    .input-text {
+        width: 430px;
+    }
+    .edit-section {
+        position: relative;
+        left: 0;
+        top: 5.5%;
+        padding-top: 20px;
+    }
+    .header-name {
+        top: -200%;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 811px) {
+    .input-div {
+        margin-top: 170px;
+    }
+
+    .edit-section {
+        position: relative;
+        left: 0;
+        top: 5.5%;
+        padding-top: 20px;  
+    }
+
+    .header-name {
+        /*margin-top: 30px;*/
+       top: -20%;
+       letter-spacing: 2px;
+    }
+
+    .input-div {
+        width: 400px;
+    }
+
+    .input-text {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .input-div {
+        width: 300px;
+    }
+
+    .input-text {
+        width: 260px;
+    }
+
+    .edit-section {
+        height: 0px;
+        top: 5%;
+        box-shadow: none;
+    }
+    .header-name {
+        margin-top: 30px;
+    /*    letter-spacing: 2px;*/
+    }
+    .edit-user-username {
+        margin-top: 100px;
+        /*letter-spacing: 2px;*/
+    }
+}

@@ -1,0 +1,37 @@
+.navLayout{
+    Background-color: transparent;
+    padding: 15px 0;
+    position: absolute;
+
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    letter-spacing: 0.3em;
+    justify-content: center;
+    font-family: Arial, serif;
+}
+
+.navList a {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+}
+
+.navList a:hover {
+    color: white;
+    transition: all .2s ease-in;
+}
+
+.navItem {
+    padding-right: 60px;
+    list-style-type: none;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+ 

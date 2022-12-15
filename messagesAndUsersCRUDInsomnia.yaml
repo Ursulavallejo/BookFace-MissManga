@@ -1,0 +1,757 @@
+_type: export
+__export_format: 4
+__export_date: 2022-05-24T09:10:01.675Z
+__export_source: insomnia.desktop.app:v2022.3.0
+resources:
+  - _id: req_54ef0dbbbeb04fc3a03ef2743dcd49d2
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1651827955705
+    created: 1651827854971
+    url: http://localhost:3001
+    name: Alive
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1651827854971
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    parentId: null
+    modified: 1651827842976
+    created: 1651827842976
+    name: BookFace.yaml
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_aa66a877bc784ba9ba65f77feebfce82
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1652268598953
+    created: 1652268561851
+    url: http://localhost:3001/wrong
+    name: WrongRoute
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1651827854958.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_a5775fed651740d7b122e7f9998f839a
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383207805
+    created: 1651827999237
+    url: http://localhost:3001/message
+    name: CreateNewMessage
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+        	"username": "Carin",
+        	"message": "test"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_2355b9edb77d43ad93c9635aa0ef6226
+    authentication: {}
+    metaSortKey: -1651827854921
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_239536bd897c48668121af65d8ff5f72
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1652860553711
+    created: 1651828618970
+    url: http://localhost:3001/message
+    name: GetAllMessages
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1651827854908.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ffa0758d59824be68db4ea034fc0740a
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383217071
+    created: 1652258984736
+    url: http://localhost:3001/message/628ca0290fab181ca2c563c4
+    name: GetMessageById
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1651827854896
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_b8fc6884fa0b4de18bf72ba2957c1382
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383222885
+    created: 1651857032910
+    url: http://localhost:3001/message/628ca0290fab181ca2c563c4
+    name: UpdateMessage
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"message": "test1 update"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_005ba7c9fd1f45178472985c8e3a1c1e
+    authentication: {}
+    metaSortKey: -1651827854871
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_cee3e38d88b24b1eabf2d3f2a05359aa
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383226762
+    created: 1652863261735
+    url: http://localhost:3001/message/628ca0290fab181ca2c563c4
+    name: DeleteMessage
+    description: ""
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_005ba7c9fd1f45178472985c8e3a1c1e
+    authentication: {}
+    metaSortKey: -1651827854846
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_1ab65de484c747e8a7319f3d5d1de059
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383242425
+    created: 1652342622613
+    url: http://localhost:3001/user/
+    name: CreateUser
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"username": "test",
+        	"password": "1111",
+        	"email": "test@test.se"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f1f64cf0824140ccb719df24e5851def
+    authentication: {}
+    metaSortKey: -1651827854821
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_aa2a4a72a8da4492ad5795cf356be17a
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383251967
+    created: 1652949295229
+    url: http://localhost:3001/user/628ca04c0fab181ca2c563c6
+    name: GetUserById
+    description: ""
+    method: POST
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1651827854746
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_bb195faf4e9a402dbe3eb3acc0578c3d
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383253149
+    created: 1652535899584
+    url: http://localhost:3001/user/verify
+    name: VerifyUser
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"username": "test",
+        	"password": "1111",
+        	"email": "test@test.se"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_76238495d5044efe93f6041c6fc18d2d
+    authentication: {}
+    metaSortKey: -1651827854721
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_992c661f54b04b78937523daf7e67a3e
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383257702
+    created: 1652864628819
+    url: http://localhost:3001/user/628ca04c0fab181ca2c563c6
+    name: UpdateUser
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+                    "username": "lala",
+                    "password": "2222",
+                    "email": "hej@hej.se"
+                }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_76238495d5044efe93f6041c6fc18d2d
+    authentication: {}
+    metaSortKey: -1651191333950.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_57682e155c37470193b0b59072e72d33
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383273889
+    created: 1652949309756
+    url: http://localhost:3001/user/628ca04c0fab181ca2c563c6
+    name: DeleteUser
+    description: ""
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: |-
+        {
+                    "username": "lala",
+                    "password": "2222",
+                    "email": "hej@hej.se"
+                }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_76238495d5044efe93f6041c6fc18d2d
+    authentication: {}
+    metaSortKey: -1651085247155.125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_59203a4dda054c129889f86d48eeac5c
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383282511
+    created: 1653378185971
+    url: http://localhost:3001/comment/
+    name: CreateComment
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+            "text": "test",
+            "name": "Carin",
+            "messagekey": "1"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_7dfa4f34c97e4806b5420838d3d9db35
+    authentication: {}
+    metaSortKey: -1651085247130.125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_1c1ab8caea4949b39f9675df802ac011
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383017497
+    created: 1653378008744
+    url: http://localhost:3001/get/comments/
+    name: GetCommentsWithKey
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"messagekey": "1"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_5d5ea1791e9c49c1becccf3307269f35
+    authentication: {}
+    metaSortKey: -1651085247105.125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d40dc41b8669497fa8330c62abf6e7d7
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383294392
+    created: 1653382384512
+    url: http://localhost:3001/update/comment/628ca0730fab181ca2c563c8
+    name: UpdateComment
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+            "text": "updated test",
+            "name": "Carin",
+            "messagekey": "1"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f4b96f6775ea41dfbe0c1feb63168124
+    authentication: {}
+    metaSortKey: -1651085247055.125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_0c47efaa76914d0bb188c5830065e581
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1653383298529
+    created: 1653382505474
+    url: http://localhost:3001/delete/comment/628ca0730fab181ca2c563c8
+    name: DeleteComment
+    description: ""
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: |-
+        {
+            "text": "updated test",
+            "name": "Carin",
+            "messagekey": "1"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f4b96f6775ea41dfbe0c1feb63168124
+    authentication: {}
+    metaSortKey: -1651032203707.5625
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_dc3dcc1c19b3373e0b6a0ed69afbe946ca0fac6f
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1651827842983
+    created: 1651827842983
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1651827842983
+    _type: environment
+  - _id: jar_dc3dcc1c19b3373e0b6a0ed69afbe946ca0fac6f
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1651827842986
+    created: 1651827842986
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_51ec2498c6da4dafb4425da2f5d7b5db
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1651827842978
+    created: 1651827842978
+    fileName: BookFace.yaml
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    parentId: wrk_4c46e4238bed45849f0122fcc3d8fad0
+    modified: 1652268279289
+    created: 1652268279289
+    name: Fullstack
+    _type: unit_test_suite
+  - _id: ut_d412a5dd5cce45aaa0bb34557b961b7e
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652268626572
+    created: 1652268290683
+    requestId: req_54ef0dbbbeb04fc3a03ef2743dcd49d2
+    name: Test Alive
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+      expect(response1.data).to.equal('Connected to BookFace TypeScript API!')
+    _type: unit_test
+  - _id: ut_9b61bafefb8947b498fdc46b442df47f
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652268612721
+    created: 1652268538079
+    requestId: req_aa66a877bc784ba9ba65f77feebfce82
+    name: Test WrongRoute
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(404);
+    _type: unit_test
+  - _id: ut_81b6046016e243b8aa02675038987d8b
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652958570120
+    created: 1652268645212
+    requestId: req_239536bd897c48668121af65d8ff5f72
+    name: Test GetAllMessages
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const data = body[0]
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('array')
+      expect(body.length).to.equal(body.length)
+    _type: unit_test
+  - _id: ut_5e997e2b9be449ac96acd07fda35e739
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652949465733
+    created: 1652268671693
+    requestId: req_a5775fed651740d7b122e7f9998f839a
+    name: Test CreateNewMessage
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const data = body
+      expect(response1.status).to.equal(201);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(data.message).to.equal('test')
+    _type: unit_test
+  - _id: ut_ee8c3c9bcf744bb39ff0e6e8944000fb
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652268885298
+    created: 1652268868454
+    requestId: req_ffa0758d59824be68db4ea034fc0740a
+    name: Test GetMessageById
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const data = body
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(data.message).to.equal('test')
+    _type: unit_test
+  - _id: ut_506e7289432743ffbd729bb7c8263e0b
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653382911349
+    created: 1652268907875
+    requestId: req_b8fc6884fa0b4de18bf72ba2957c1382
+    name: Test UpdateMessage
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const data = body
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(data.message).to.equal('test1 update')
+    _type: unit_test
+  - _id: ut_ca269111a1fb4f6b85e5e92e5cb2bebd
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653383239426
+    created: 1652268965999
+    requestId: req_cee3e38d88b24b1eabf2d3f2a05359aa
+    name: Test DeleteMessage
+    code: >-
+      const response1 = await insomnia.send();
+
+      const body = JSON.parse(response1.data)
+
+      const data = body
+
+      expect(response1.status).to.equal(200);
+
+
+      expect(body).to.be.an('object')
+
+      expect(body.length).to.equal(body.length)
+
+
+      expect(data.message).to.equal('Message with id: 628ca0290fab181ca2c563c4 was deleted from database!')
+    _type: unit_test
+  - _id: ut_fd383d60f982480992d466576641b8d8
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653382561198
+    created: 1652949456365
+    requestId: req_1ab65de484c747e8a7319f3d5d1de059
+    name: Test CreateUser
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const data = body
+      expect(response1.status).to.equal(201);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(body.username).to.equal('test')
+      expect(body.email).to.equal('test@test.se')
+    _type: unit_test
+  - _id: ut_0c3632778d504646b714369ea316e6f2
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652949890929
+    created: 1652949656865
+    requestId: req_aa2a4a72a8da4492ad5795cf356be17a
+    name: Test GetUserById
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+      expect(body.username).to.equal('test')
+      expect(body.email).to.equal('test@test.se')
+    _type: unit_test
+  - _id: ut_6b5680ae8b42436d91307f20c620ee8c
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652958400100
+    created: 1652949906373
+    requestId: req_bb195faf4e9a402dbe3eb3acc0578c3d
+    name: Test VerifyUser
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const data = body
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(data.message).to.equal(true)
+    _type: unit_test
+  - _id: ut_0228409d0f9445f2bb7317c3a98648bf
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1652958670318
+    created: 1652958580471
+    requestId: req_992c661f54b04b78937523daf7e67a3e
+    name: Test UpdateUser
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(body.username).to.equal('lala')
+      expect(body.email).to.equal('hej@hej.se')
+    _type: unit_test
+  - _id: ut_3eec532ec7684004b16a68392fa886fe
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653383270849
+    created: 1652958738207
+    requestId: req_57682e155c37470193b0b59072e72d33
+    name: Test DeleteUser
+    code: >-
+      const response1 = await insomnia.send();
+
+      const body = JSON.parse(response1.data)
+
+      const data = body
+
+      expect(response1.status).to.equal(200);
+
+
+      expect(body).to.be.an('object')
+
+      expect(body.length).to.equal(body.length)
+
+
+      expect(data.message).to.equal('User with id: 628ca04c0fab181ca2c563c6 was deleted from database!')
+    _type: unit_test
+  - _id: ut_ebd54a5c5c344677beb31b7f0c6b17bf
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653382790924
+    created: 1653382554579
+    requestId: req_59203a4dda054c129889f86d48eeac5c
+    name: Test CreateComment
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      const data = body
+      expect(response1.status).to.equal(201);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(body.text).to.equal('test')
+      expect(body.name).to.equal('Carin')
+    _type: unit_test
+  - _id: ut_14ec4591697c4aa0925c6039127bd33a
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653382976333
+    created: 1653382624653
+    requestId: req_1c1ab8caea4949b39f9675df802ac011
+    name: Test GetCommentWithKey
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('array')
+      expect(body.length).to.equal(body.length)
+      const comment = body[0]
+      expect(comment.text).to.equal('test')
+      expect(comment.name).to.equal('Carin')
+    _type: unit_test
+  - _id: ut_eb49cee2ec244b5c92e6fe37de30a37f
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653383077727
+    created: 1653382908545
+    requestId: req_d40dc41b8669497fa8330c62abf6e7d7
+    name: Test UpdateComment
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data)
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object')
+      expect(body.length).to.equal(body.length)
+
+      expect(body.text).to.equal('updated test')
+    _type: unit_test
+  - _id: ut_aa2df0058f4043ec8a67666c7b75e27f
+    parentId: uts_9b02bb18f69f4668be8d3e1bd46b763f
+    modified: 1653383306800
+    created: 1653383117769
+    requestId: req_0c47efaa76914d0bb188c5830065e581
+    name: Test DeleteComment
+    code: >-
+      const response1 = await insomnia.send();
+
+      const body = JSON.parse(response1.data)
+
+      const data = body
+
+      expect(response1.status).to.equal(200);
+
+
+      expect(body).to.be.an('object')
+
+      expect(body.length).to.equal(body.length)
+
+
+      expect(data.message).to.equal('Comment with id: 628ca0730fab181ca2c563c8 was deleted from database!')
+    _type: unit_test
