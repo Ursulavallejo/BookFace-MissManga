@@ -160,7 +160,7 @@ Each with full CRUD functionality: GET, POST, PUT, DELETE.
 
 **Frontend:**
 
-![](./Dokumentation/imgDoku/testFrontend.png)
+<img src="./Dokumentation/imgDoku/testFrontend.png" alt="test Screenshot" width="350"/>
 
 ---
 

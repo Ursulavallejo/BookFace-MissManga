@@ -42,12 +42,17 @@ Mocha + Chai – Testing framework and assertions.
 
 https://user-images.githubusercontent.com/89070768/207894673-ad94f663-012d-4509-b3be-c8b64371140a.mp4
 
-<img src="./Dokumentation/imgDoku/demo1.png" alt="Demo Screenshot" width="300"/>
-<img src="./Dokumentation/imgDoku/demo2.png" alt="Demo Screenshot" width="300"/>
-<img src="./Dokumentation/imgDoku/demo3.png" alt="Demo Screenshot" width="300"/>
-<img src="./Dokumentation/imgDoku/demo4.png" alt="Demo Screenshot" width="300"/>
-<img src="./Dokumentation/imgDoku/demo5.png" alt="Demo Screenshot" width="300"/>
-<img src="./Dokumentation/imgDoku/demo6.png" alt="Demo Screenshot" width="300"/>
+<img src="./Dokumentation/imgDoku/demo1.png" alt="MissManga-Sign-in-page" width="300"/>
+
+<img src="./Dokumentation/imgDoku/demo2.png" alt="MissManga-Register-page" width="300"/>
+
+<img src="./Dokumentation/imgDoku/demo3.png" alt="MissManga-Sucess-page" width="300"/>
+
+<img src="./Dokumentation/imgDoku/demo4.png" alt="MissManga-main-page" width="300"/>
+
+<img src="./Dokumentation/imgDoku/demo5.png" alt="MissManga-delete-edit" width="300"/>
+
+<img src="./Dokumentation/imgDoku/demo6.png" alt="MissManga-posts" width="300"/>
 
 ---
 
